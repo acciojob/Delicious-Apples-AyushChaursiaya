@@ -1,1 +1,120 @@
 /* your code here */
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styling for the product section */
+.product {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+/* Styling for the product photo container */
+.product__photo {
+  flex: 1;
+}
+
+/* Styling for the photo container */
+.photo-container {
+  position: relative;
+}
+
+/* Styling for the main photo */
+.photo-main {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Styling for the controls (share and heart icons) */
+.controls {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+}
+
+.controls i {
+  margin-left: 10px;
+  font-size: 18px;
+  color: #888;
+  cursor: pointer;
+}
+
+/* Styling for the photo album */
+.photo-album {
+  margin-top: 10px;
+}
+
+.photo-album ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.photo-album ul li {
+  margin-right: 10px;
+}
+
+/* Styling for the product info container */
+.product__info {
+  flex: 1;
+  padding-left: 20px;
+}
+
+/* Styling for the product title and code */
+.title {
+  margin-bottom: 10px;
+}
+
+.title h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.title span {
+  font-size: 14px;
+  color: #888;
+}
+
+/* Styling for the price */
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #4CAF50; /* Green color for price */
+  margin-bottom: 10px;
+}
+
+.price span {
+  margin-left: 5px;
+}
+
+/* Styling for the variant selection */
+.variant {
+  margin-bottom: 20px;
+}
+
+.variant h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.variant ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.variant ul li {
+  margin-right: 10px;
+}
+
+/* Styling for the description */
+.description {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+}
